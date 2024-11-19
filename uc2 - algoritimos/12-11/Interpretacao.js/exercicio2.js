@@ -21,5 +21,5 @@ console.log(tartaruga)
 
 
 b) O que faz a sintaxe dos três pontos antes do nome de um objeto?
-Permite fazer o espalhamento de um objeto
+// Ele serve para fazer o "Espalhamento" do obejto, copiar os dados de outro objeto em um novo
 */
