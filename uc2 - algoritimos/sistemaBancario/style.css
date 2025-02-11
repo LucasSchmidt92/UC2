@@ -1,0 +1,60 @@
+/*Estilo gerais para a pagina do sistema Bancario */
+
+body {
+    background-color:#c60c0c; /* Cor do fundo da pagina */
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Definir a fonte da pagina */
+
+margin: 0; /*Remove a margem padrão */
+padding: 20px; /*Adiciona um espaço interno (padding) na pagina */
+
+
+}
+/* Estilos para o container pricipal*/
+.container{
+    background-color: rgb(244, 26, 26); /* Define a cor do fundo do container */
+    border-radius: 15px; 
+    /*cantos arredondados*/
+
+    padding: 10px;
+    /*adicionar um espaço interno (padding) ao redor do conteudo*/
+    max-width: 400px;
+    /*define a largura maxima do container*/
+    margin: auto;
+    box-shadow: 0 0 10px rgba(8, 0, 0, 0.9);
+    /* Adiciona uma sombra bem de leve para destacar o container*/
+}
+
+/*Estilo para o titulo*/
+
+h1 {
+
+    text-align: center; /*centralizar o texto*/
+    color:aliceblue
+}
+
+h2 {
+
+    text-align: center; /*centralizar o texto*/
+    color:aliceblue;
+   
+}
+
+
+/* Estilos para os inputs e botões */
+input {
+    width: 40%;
+    /*Faz o campo de entrada ocupar toda a largura disponivel*/
+
+    padding: 3px;
+    /*Espaço interno ao redor do texto no campo*/
+
+    margin: 5px 0;
+    /*Adiciona um espaço de 5pc acima e abaixo do campo */
+
+    border-radius: 5px;
+    /*Arredondar os cantos de campo botão*/
+
+    border: 4px double #020000;
+    /* Borda cinza claro*/
+    
+}
