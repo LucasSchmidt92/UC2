@@ -42,7 +42,7 @@ h2 {
 
 /* Estilos para os inputs e botões */
 input {
-    width: 40%;
+    width: 48%;
     /*Faz o campo de entrada ocupar toda a largura disponivel*/
 
     padding: 3px;
@@ -57,4 +57,76 @@ input {
     border: 4px double #020000;
     /* Borda cinza claro*/
     
+}
+
+.botao1 {
+    width: 60%;
+    /* faz o botao ocupar a largura disponivel */
+
+    padding: 2px;
+
+    /* espaco interno entre o texto e o redor do botão */
+
+    background-color: rgb(242, 243, 244);
+    
+    /* cor do fundo do botão */
+
+    color: #000000;
+    
+    /* cor das letras do botão */
+    border-radius: 5px;
+
+    /* arredonda os cantos das borda do botao */
+    cursor: grab;
+    
+    /* muda o cursor para indicar que o botao é clicavel */
+}
+
+/* efeito ao passar o mouse no botao */
+.botao2:hover{
+    background-color: rgb(189, 7, 7);
+    }
+    
+
+.botao2 {
+    width: 60%;
+    /* faz o botao ocupar a largura disponivel */
+
+    padding: 2px;
+
+    /* espaco interno entre o texto e o redor do botão */
+
+    background-color: rgb(242, 243, 244);
+    
+    /* cor do fundo do botão */
+
+    color: #000000;
+    
+    /* cor das letras do botão */
+    border-radius: 5px;
+
+    /* arredonda os cantos das borda do botao */
+    cursor: grab;
+    
+    /* muda o cursor para indicar que o botao é clicavel */
+
+}
+
+/* efeito ao passar o mouse no botao */
+.botao1:hover{
+background-color: rgb(190, 6, 6);
+}
+
+/*Estilo para a area que exibe o saldo*/
+
+.balance {
+    font-size: medium;
+    /* aumenta o tamanho da fonte */
+
+    text-align: center;
+    /* centraliza o texto */
+
+    margin-top: 15px;
+    /* adiciona um espaço superior */
+
 }

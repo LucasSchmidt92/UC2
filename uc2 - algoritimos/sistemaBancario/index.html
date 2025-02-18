@@ -6,6 +6,8 @@
     <title>SISTEMA BANCÁRIO</title> <!--TITULO DA ABA-->
      <!--Link para o arquivo CSS externo-->
      <link rel="stylesheet" href="style.css">
+<!--Inclusao do script JS externo que vai controlar as operaçoes bancarias-->
+    <script src="operacaoBancaria.js"></script>
 </head>
 <body>
     <!--CONTEINER PRINCIPAL PARA O CONTEUDO DA INTERFACE-->
@@ -19,11 +21,11 @@
         <input type="number" id="valor" placeholder="Ex:100.00"><br> <!--campo para inserir um valor-->
 
          <!--Botões para interagir com a conta bancaria-->
-         <button onclick="Sacar()">Sacar</button>  <!--Botão para realizar o saque-->
-         <button onclick="depositar()">Depositar</button>  <!--Botão para reazlizar o deposito-->
+         <button class= "botao1" onclick="sacar()">Sacar</button>  <!--Botão para realizar o saque-->
+         <button class= "botao2" onclick="depositar()">Depositar</button>  <!--Botão para reazlizar o deposito-->
 
           <!--Exibindo o saldo atual da conta-->
-          <div class="balance">Saldo: R$<span id="Saldo">0.00</span>  <!--Exibição dinamica de saldo-->
+          <div class="balance">Saldo: R$<span id="saldo">0.00</span>  <!--Exibição dinamica de saldo-->
             </div>
             </div>
 
